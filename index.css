@@ -1,0 +1,25 @@
+
+#productlist{
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  #productlist>div>img{
+      height: 100px;
+      width: 100px;
+  
+      
+  }
+  
+  #productlist>div{
+      
+      height: 600px;
+      width: 350px;
+      border: 1px solid black;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px;
+  }
